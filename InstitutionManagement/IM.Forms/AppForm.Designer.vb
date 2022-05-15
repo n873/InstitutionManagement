@@ -53,7 +53,7 @@ Partial Class AppForm
         Me.studentLocalAddressTxt = New System.Windows.Forms.TextBox()
         Me.Label45 = New System.Windows.Forms.Label()
         Me.Label46 = New System.Windows.Forms.Label()
-        Me.GroupBox23 = New System.Windows.Forms.GroupBox()
+        Me.studentPersonalDetailsGrpbx = New System.Windows.Forms.GroupBox()
         Me.studentDOBDate = New System.Windows.Forms.DateTimePicker()
         Me.Label47 = New System.Windows.Forms.Label()
         Me.studentLastNameTxt = New System.Windows.Forms.TextBox()
@@ -63,7 +63,7 @@ Partial Class AppForm
         Me.studentFirstNameTxt = New System.Windows.Forms.TextBox()
         Me.Label50 = New System.Windows.Forms.Label()
         Me.GroupBox24 = New System.Windows.Forms.GroupBox()
-        Me.studentInformation_studentID_input = New System.Windows.Forms.TextBox()
+        Me.studentIdTxt = New System.Windows.Forms.TextBox()
         Me.Label51 = New System.Windows.Forms.Label()
         Me.studentTitleLbl = New System.Windows.Forms.Label()
         Me.salary_details_tab = New System.Windows.Forms.TabPage()
@@ -110,54 +110,54 @@ Partial Class AppForm
         Me.employeeInfo_modifyBtn = New System.Windows.Forms.Button()
         Me.employeeInfo_findBtn = New System.Windows.Forms.Button()
         Me.employeeInfo_submitBtn = New System.Windows.Forms.Button()
-        Me.GroupBox7 = New System.Windows.Forms.GroupBox()
-        Me.employeeInfo_salary_input = New System.Windows.Forms.TextBox()
-        Me.employeeInfo_eDesignation_input = New System.Windows.Forms.TextBox()
+        Me.officialInformationGrpbx = New System.Windows.Forms.GroupBox()
+        Me.employeeSalaryTxt = New System.Windows.Forms.TextBox()
+        Me.employeeDesignationTxt = New System.Windows.Forms.TextBox()
         Me.Label20 = New System.Windows.Forms.Label()
         Me.Label22 = New System.Windows.Forms.Label()
-        Me.employeeInfo_eType_input = New System.Windows.Forms.TextBox()
+        Me.employeeTypeTxt = New System.Windows.Forms.TextBox()
         Me.Label21 = New System.Windows.Forms.Label()
-        Me.GroupBox6 = New System.Windows.Forms.GroupBox()
-        Me.employeeInfo_emailID_input = New System.Windows.Forms.TextBox()
+        Me.contactDetailsGrpbx = New System.Windows.Forms.GroupBox()
+        Me.employeeEmailIDTxt = New System.Windows.Forms.TextBox()
         Me.Label19 = New System.Windows.Forms.Label()
-        Me.employeeInfo_pNumber_input = New System.Windows.Forms.TextBox()
+        Me.employeePhoneNumberTxt = New System.Windows.Forms.TextBox()
         Me.Label18 = New System.Windows.Forms.Label()
-        Me.employeeInfo_mNumber_input = New System.Windows.Forms.TextBox()
+        Me.employeeMobileNumberTxt = New System.Windows.Forms.TextBox()
         Me.Label17 = New System.Windows.Forms.Label()
-        Me.GroupBox5 = New System.Windows.Forms.GroupBox()
-        Me.employeeInfo_lAddress_input = New System.Windows.Forms.ListBox()
+        Me.addressDetailsGrpbx = New System.Windows.Forms.GroupBox()
+        Me.employeeLocalAddressTxt = New System.Windows.Forms.ListBox()
         Me.Label16 = New System.Windows.Forms.Label()
-        Me.employeeInfo_pAddress_input = New System.Windows.Forms.ListBox()
+        Me.employeePersonalAddressTxt = New System.Windows.Forms.ListBox()
         Me.Label15 = New System.Windows.Forms.Label()
-        Me.GroupBox4 = New System.Windows.Forms.GroupBox()
-        Me.employeeInfo_DOB_input = New System.Windows.Forms.ComboBox()
+        Me.personalDetailsGrpbx = New System.Windows.Forms.GroupBox()
+        Me.employeeDOBTxt = New System.Windows.Forms.ComboBox()
         Me.Label14 = New System.Windows.Forms.Label()
-        Me.employeeInfo_lName_input = New System.Windows.Forms.TextBox()
+        Me.employeeLastNameTxt = New System.Windows.Forms.TextBox()
         Me.Label13 = New System.Windows.Forms.Label()
-        Me.employeeInfo_fName_input = New System.Windows.Forms.TextBox()
+        Me.employeeFirstNameTxt = New System.Windows.Forms.TextBox()
         Me.Label12 = New System.Windows.Forms.Label()
-        Me.employeeInfo_employeeTitle_input = New System.Windows.Forms.TextBox()
+        Me.employeeTitleTxt = New System.Windows.Forms.TextBox()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
-        Me.employeeInfo_employeeID_input = New System.Windows.Forms.TextBox()
+        Me.employeeIDTxt = New System.Windows.Forms.TextBox()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.employeeTitleLbl = New System.Windows.Forms.Label()
         Me.fees_structure_tab = New System.Windows.Forms.TabPage()
         Me.GroupBox9 = New System.Windows.Forms.GroupBox()
         Me.GroupBox12 = New System.Windows.Forms.GroupBox()
-        Me.feesStructure_feesYear_input = New System.Windows.Forms.ComboBox()
-        Me.feesStructure_feesMonth_input = New System.Windows.Forms.ComboBox()
-        Me.feesStructure_feesDate_input = New System.Windows.Forms.ComboBox()
-        Me.feesStructure_paymentType_input = New System.Windows.Forms.ComboBox()
-        Me.feesStructure_feesAmount_input = New System.Windows.Forms.TextBox()
+        Me.feesYearTxt = New System.Windows.Forms.ComboBox()
+        Me.feesMonthTxt = New System.Windows.Forms.ComboBox()
+        Me.feesDateTxt = New System.Windows.Forms.ComboBox()
+        Me.feesPaymentTypeTxt = New System.Windows.Forms.ComboBox()
+        Me.feesAmountTxt = New System.Windows.Forms.TextBox()
         Me.Label31 = New System.Windows.Forms.Label()
         Me.Label32 = New System.Windows.Forms.Label()
         Me.Label33 = New System.Windows.Forms.Label()
         Me.Label34 = New System.Windows.Forms.Label()
         Me.Label35 = New System.Windows.Forms.Label()
-        Me.feesStructure_studentID_input = New System.Windows.Forms.TextBox()
+        Me.feesStudentIDTxt = New System.Windows.Forms.TextBox()
         Me.Label36 = New System.Windows.Forms.Label()
-        Me.feesStructure_feesID_input = New System.Windows.Forms.TextBox()
+        Me.feesIDTxt = New System.Windows.Forms.TextBox()
         Me.Label37 = New System.Windows.Forms.Label()
         Me.GroupBox11 = New System.Windows.Forms.GroupBox()
         Me.feesStructure_exitBtn = New System.Windows.Forms.Button()
@@ -167,7 +167,7 @@ Partial Class AppForm
         Me.feesStructure_findBtn = New System.Windows.Forms.Button()
         Me.feesStructure_submitBtn = New System.Windows.Forms.Button()
         Me.feeTitleLbl = New System.Windows.Forms.Label()
-        Me.course_details_tab = New System.Windows.Forms.TabPage()
+        Me.courseTab = New System.Windows.Forms.TabPage()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.GroupBox10 = New System.Windows.Forms.GroupBox()
         Me.courseDetails_exitBtn = New System.Windows.Forms.Button()
@@ -176,17 +176,17 @@ Partial Class AppForm
         Me.courseDetails_modifyBtn = New System.Windows.Forms.Button()
         Me.courseDetails_findBtn = New System.Windows.Forms.Button()
         Me.courseDetails_submitBtn = New System.Windows.Forms.Button()
-        Me.courseDetails_title_input = New System.Windows.Forms.TextBox()
+        Me.courseTitleTxt = New System.Windows.Forms.TextBox()
         Me.Label8 = New System.Windows.Forms.Label()
-        Me.courseDetails_duration_input = New System.Windows.Forms.TextBox()
+        Me.courseDurationTxt = New System.Windows.Forms.TextBox()
         Me.Label7 = New System.Windows.Forms.Label()
-        Me.courseDetails_fee_input = New System.Windows.Forms.TextBox()
+        Me.courseFeeTxt = New System.Windows.Forms.TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.courseDetails_code_input = New System.Windows.Forms.TextBox()
+        Me.courseCodeTxt = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.courseDetails_name_input = New System.Windows.Forms.TextBox()
+        Me.courseNameTxt = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.courseDetails_courseID_input = New System.Windows.Forms.TextBox()
+        Me.courseIDTxt = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -198,7 +198,7 @@ Partial Class AppForm
         Me.GroupBox20.SuspendLayout()
         Me.GroupBox21.SuspendLayout()
         Me.GroupBox22.SuspendLayout()
-        Me.GroupBox23.SuspendLayout()
+        Me.studentPersonalDetailsGrpbx.SuspendLayout()
         Me.GroupBox24.SuspendLayout()
         Me.salary_details_tab.SuspendLayout()
         Me.GroupBox14.SuspendLayout()
@@ -210,16 +210,16 @@ Partial Class AppForm
         Me.employee_information_tab.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox8.SuspendLayout()
-        Me.GroupBox7.SuspendLayout()
-        Me.GroupBox6.SuspendLayout()
-        Me.GroupBox5.SuspendLayout()
-        Me.GroupBox4.SuspendLayout()
+        Me.officialInformationGrpbx.SuspendLayout()
+        Me.contactDetailsGrpbx.SuspendLayout()
+        Me.addressDetailsGrpbx.SuspendLayout()
+        Me.personalDetailsGrpbx.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
         Me.fees_structure_tab.SuspendLayout()
         Me.GroupBox9.SuspendLayout()
         Me.GroupBox12.SuspendLayout()
         Me.GroupBox11.SuspendLayout()
-        Me.course_details_tab.SuspendLayout()
+        Me.courseTab.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox10.SuspendLayout()
         Me.SuspendLayout()
@@ -230,7 +230,7 @@ Partial Class AppForm
         Me.courseTitleLbl.Controls.Add(Me.salary_details_tab)
         Me.courseTitleLbl.Controls.Add(Me.employee_information_tab)
         Me.courseTitleLbl.Controls.Add(Me.fees_structure_tab)
-        Me.courseTitleLbl.Controls.Add(Me.course_details_tab)
+        Me.courseTitleLbl.Controls.Add(Me.courseTab)
         Me.courseTitleLbl.Controls.Add(Me.report_tab)
         Me.courseTitleLbl.Location = New System.Drawing.Point(11, 13)
         Me.courseTitleLbl.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
@@ -258,7 +258,7 @@ Partial Class AppForm
         Me.GroupBox18.Controls.Add(Me.GroupBox20)
         Me.GroupBox18.Controls.Add(Me.GroupBox21)
         Me.GroupBox18.Controls.Add(Me.GroupBox22)
-        Me.GroupBox18.Controls.Add(Me.GroupBox23)
+        Me.GroupBox18.Controls.Add(Me.studentPersonalDetailsGrpbx)
         Me.GroupBox18.Controls.Add(Me.GroupBox24)
         Me.GroupBox18.Location = New System.Drawing.Point(37, 198)
         Me.GroupBox18.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
@@ -563,24 +563,24 @@ Partial Class AppForm
         Me.Label46.TabIndex = 10
         Me.Label46.Text = "Local Address"
         '
-        'GroupBox23
+        'studentPersonalDetailsGrpbx
         '
-        Me.GroupBox23.Controls.Add(Me.studentDOBDate)
-        Me.GroupBox23.Controls.Add(Me.Label47)
-        Me.GroupBox23.Controls.Add(Me.studentLastNameTxt)
-        Me.GroupBox23.Controls.Add(Me.Label48)
-        Me.GroupBox23.Controls.Add(Me.studentMiddleNameTxt)
-        Me.GroupBox23.Controls.Add(Me.Label49)
-        Me.GroupBox23.Controls.Add(Me.studentFirstNameTxt)
-        Me.GroupBox23.Controls.Add(Me.Label50)
-        Me.GroupBox23.Location = New System.Drawing.Point(39, 175)
-        Me.GroupBox23.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.GroupBox23.Name = "GroupBox23"
-        Me.GroupBox23.Padding = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.GroupBox23.Size = New System.Drawing.Size(752, 373)
-        Me.GroupBox23.TabIndex = 5
-        Me.GroupBox23.TabStop = False
-        Me.GroupBox23.Text = "Personal Details"
+        Me.studentPersonalDetailsGrpbx.Controls.Add(Me.studentDOBDate)
+        Me.studentPersonalDetailsGrpbx.Controls.Add(Me.Label47)
+        Me.studentPersonalDetailsGrpbx.Controls.Add(Me.studentLastNameTxt)
+        Me.studentPersonalDetailsGrpbx.Controls.Add(Me.Label48)
+        Me.studentPersonalDetailsGrpbx.Controls.Add(Me.studentMiddleNameTxt)
+        Me.studentPersonalDetailsGrpbx.Controls.Add(Me.Label49)
+        Me.studentPersonalDetailsGrpbx.Controls.Add(Me.studentFirstNameTxt)
+        Me.studentPersonalDetailsGrpbx.Controls.Add(Me.Label50)
+        Me.studentPersonalDetailsGrpbx.Location = New System.Drawing.Point(39, 175)
+        Me.studentPersonalDetailsGrpbx.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.studentPersonalDetailsGrpbx.Name = "studentPersonalDetailsGrpbx"
+        Me.studentPersonalDetailsGrpbx.Padding = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.studentPersonalDetailsGrpbx.Size = New System.Drawing.Size(752, 373)
+        Me.studentPersonalDetailsGrpbx.TabIndex = 5
+        Me.studentPersonalDetailsGrpbx.TabStop = False
+        Me.studentPersonalDetailsGrpbx.Text = "Personal Details"
         '
         'studentDOBDate
         '
@@ -658,7 +658,7 @@ Partial Class AppForm
         '
         'GroupBox24
         '
-        Me.GroupBox24.Controls.Add(Me.studentInformation_studentID_input)
+        Me.GroupBox24.Controls.Add(Me.studentIdTxt)
         Me.GroupBox24.Controls.Add(Me.Label51)
         Me.GroupBox24.Location = New System.Drawing.Point(529, 38)
         Me.GroupBox24.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
@@ -668,13 +668,13 @@ Partial Class AppForm
         Me.GroupBox24.TabIndex = 4
         Me.GroupBox24.TabStop = False
         '
-        'studentInformation_studentID_input
+        'studentIdTxt
         '
-        Me.studentInformation_studentID_input.Location = New System.Drawing.Point(271, 45)
-        Me.studentInformation_studentID_input.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.studentInformation_studentID_input.Name = "studentInformation_studentID_input"
-        Me.studentInformation_studentID_input.Size = New System.Drawing.Size(201, 39)
-        Me.studentInformation_studentID_input.TabIndex = 1
+        Me.studentIdTxt.Location = New System.Drawing.Point(271, 45)
+        Me.studentIdTxt.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.studentIdTxt.Name = "studentIdTxt"
+        Me.studentIdTxt.Size = New System.Drawing.Size(201, 39)
+        Me.studentIdTxt.TabIndex = 1
         '
         'Label51
         '
@@ -1060,10 +1060,10 @@ Partial Class AppForm
         'GroupBox2
         '
         Me.GroupBox2.Controls.Add(Me.GroupBox8)
-        Me.GroupBox2.Controls.Add(Me.GroupBox7)
-        Me.GroupBox2.Controls.Add(Me.GroupBox6)
-        Me.GroupBox2.Controls.Add(Me.GroupBox5)
-        Me.GroupBox2.Controls.Add(Me.GroupBox4)
+        Me.GroupBox2.Controls.Add(Me.officialInformationGrpbx)
+        Me.GroupBox2.Controls.Add(Me.contactDetailsGrpbx)
+        Me.GroupBox2.Controls.Add(Me.addressDetailsGrpbx)
+        Me.GroupBox2.Controls.Add(Me.personalDetailsGrpbx)
         Me.GroupBox2.Controls.Add(Me.GroupBox3)
         Me.GroupBox2.Location = New System.Drawing.Point(41, 205)
         Me.GroupBox2.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
@@ -1160,38 +1160,38 @@ Partial Class AppForm
         Me.employeeInfo_submitBtn.Text = "Submit"
         Me.employeeInfo_submitBtn.UseVisualStyleBackColor = True
         '
-        'GroupBox7
+        'officialInformationGrpbx
         '
-        Me.GroupBox7.Controls.Add(Me.employeeInfo_salary_input)
-        Me.GroupBox7.Controls.Add(Me.employeeInfo_eDesignation_input)
-        Me.GroupBox7.Controls.Add(Me.Label20)
-        Me.GroupBox7.Controls.Add(Me.Label22)
-        Me.GroupBox7.Controls.Add(Me.employeeInfo_eType_input)
-        Me.GroupBox7.Controls.Add(Me.Label21)
-        Me.GroupBox7.Location = New System.Drawing.Point(834, 578)
-        Me.GroupBox7.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.GroupBox7.Name = "GroupBox7"
-        Me.GroupBox7.Padding = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.GroupBox7.Size = New System.Drawing.Size(752, 373)
-        Me.GroupBox7.TabIndex = 8
-        Me.GroupBox7.TabStop = False
-        Me.GroupBox7.Text = "Official Information"
+        Me.officialInformationGrpbx.Controls.Add(Me.employeeSalaryTxt)
+        Me.officialInformationGrpbx.Controls.Add(Me.employeeDesignationTxt)
+        Me.officialInformationGrpbx.Controls.Add(Me.Label20)
+        Me.officialInformationGrpbx.Controls.Add(Me.Label22)
+        Me.officialInformationGrpbx.Controls.Add(Me.employeeTypeTxt)
+        Me.officialInformationGrpbx.Controls.Add(Me.Label21)
+        Me.officialInformationGrpbx.Location = New System.Drawing.Point(834, 578)
+        Me.officialInformationGrpbx.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.officialInformationGrpbx.Name = "officialInformationGrpbx"
+        Me.officialInformationGrpbx.Padding = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.officialInformationGrpbx.Size = New System.Drawing.Size(752, 373)
+        Me.officialInformationGrpbx.TabIndex = 8
+        Me.officialInformationGrpbx.TabStop = False
+        Me.officialInformationGrpbx.Text = "Official Information"
         '
-        'employeeInfo_salary_input
+        'employeeSalaryTxt
         '
-        Me.employeeInfo_salary_input.Location = New System.Drawing.Point(371, 254)
-        Me.employeeInfo_salary_input.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.employeeInfo_salary_input.Name = "employeeInfo_salary_input"
-        Me.employeeInfo_salary_input.Size = New System.Drawing.Size(310, 39)
-        Me.employeeInfo_salary_input.TabIndex = 21
+        Me.employeeSalaryTxt.Location = New System.Drawing.Point(371, 254)
+        Me.employeeSalaryTxt.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.employeeSalaryTxt.Name = "employeeSalaryTxt"
+        Me.employeeSalaryTxt.Size = New System.Drawing.Size(310, 39)
+        Me.employeeSalaryTxt.TabIndex = 21
         '
-        'employeeInfo_eDesignation_input
+        'employeeDesignationTxt
         '
-        Me.employeeInfo_eDesignation_input.Location = New System.Drawing.Point(371, 77)
-        Me.employeeInfo_eDesignation_input.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.employeeInfo_eDesignation_input.Name = "employeeInfo_eDesignation_input"
-        Me.employeeInfo_eDesignation_input.Size = New System.Drawing.Size(310, 39)
-        Me.employeeInfo_eDesignation_input.TabIndex = 17
+        Me.employeeDesignationTxt.Location = New System.Drawing.Point(371, 77)
+        Me.employeeDesignationTxt.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.employeeDesignationTxt.Name = "employeeDesignationTxt"
+        Me.employeeDesignationTxt.Size = New System.Drawing.Size(310, 39)
+        Me.employeeDesignationTxt.TabIndex = 17
         '
         'Label20
         '
@@ -1213,13 +1213,13 @@ Partial Class AppForm
         Me.Label22.TabIndex = 16
         Me.Label22.Text = "Employee Designation"
         '
-        'employeeInfo_eType_input
+        'employeeTypeTxt
         '
-        Me.employeeInfo_eType_input.Location = New System.Drawing.Point(371, 164)
-        Me.employeeInfo_eType_input.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.employeeInfo_eType_input.Name = "employeeInfo_eType_input"
-        Me.employeeInfo_eType_input.Size = New System.Drawing.Size(310, 39)
-        Me.employeeInfo_eType_input.TabIndex = 19
+        Me.employeeTypeTxt.Location = New System.Drawing.Point(371, 164)
+        Me.employeeTypeTxt.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.employeeTypeTxt.Name = "employeeTypeTxt"
+        Me.employeeTypeTxt.Size = New System.Drawing.Size(310, 39)
+        Me.employeeTypeTxt.TabIndex = 19
         '
         'Label21
         '
@@ -1231,30 +1231,30 @@ Partial Class AppForm
         Me.Label21.TabIndex = 18
         Me.Label21.Text = "Employee Type"
         '
-        'GroupBox6
+        'contactDetailsGrpbx
         '
-        Me.GroupBox6.Controls.Add(Me.employeeInfo_emailID_input)
-        Me.GroupBox6.Controls.Add(Me.Label19)
-        Me.GroupBox6.Controls.Add(Me.employeeInfo_pNumber_input)
-        Me.GroupBox6.Controls.Add(Me.Label18)
-        Me.GroupBox6.Controls.Add(Me.employeeInfo_mNumber_input)
-        Me.GroupBox6.Controls.Add(Me.Label17)
-        Me.GroupBox6.Location = New System.Drawing.Point(39, 578)
-        Me.GroupBox6.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.GroupBox6.Name = "GroupBox6"
-        Me.GroupBox6.Padding = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.GroupBox6.Size = New System.Drawing.Size(752, 373)
-        Me.GroupBox6.TabIndex = 7
-        Me.GroupBox6.TabStop = False
-        Me.GroupBox6.Text = "Contact Details"
+        Me.contactDetailsGrpbx.Controls.Add(Me.employeeEmailIDTxt)
+        Me.contactDetailsGrpbx.Controls.Add(Me.Label19)
+        Me.contactDetailsGrpbx.Controls.Add(Me.employeePhoneNumberTxt)
+        Me.contactDetailsGrpbx.Controls.Add(Me.Label18)
+        Me.contactDetailsGrpbx.Controls.Add(Me.employeeMobileNumberTxt)
+        Me.contactDetailsGrpbx.Controls.Add(Me.Label17)
+        Me.contactDetailsGrpbx.Location = New System.Drawing.Point(39, 578)
+        Me.contactDetailsGrpbx.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.contactDetailsGrpbx.Name = "contactDetailsGrpbx"
+        Me.contactDetailsGrpbx.Padding = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.contactDetailsGrpbx.Size = New System.Drawing.Size(752, 373)
+        Me.contactDetailsGrpbx.TabIndex = 7
+        Me.contactDetailsGrpbx.TabStop = False
+        Me.contactDetailsGrpbx.Text = "Contact Details"
         '
-        'employeeInfo_emailID_input
+        'employeeEmailIDTxt
         '
-        Me.employeeInfo_emailID_input.Location = New System.Drawing.Point(366, 252)
-        Me.employeeInfo_emailID_input.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.employeeInfo_emailID_input.Name = "employeeInfo_emailID_input"
-        Me.employeeInfo_emailID_input.Size = New System.Drawing.Size(310, 39)
-        Me.employeeInfo_emailID_input.TabIndex = 15
+        Me.employeeEmailIDTxt.Location = New System.Drawing.Point(366, 252)
+        Me.employeeEmailIDTxt.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.employeeEmailIDTxt.Name = "employeeEmailIDTxt"
+        Me.employeeEmailIDTxt.Size = New System.Drawing.Size(310, 39)
+        Me.employeeEmailIDTxt.TabIndex = 15
         '
         'Label19
         '
@@ -1266,13 +1266,13 @@ Partial Class AppForm
         Me.Label19.TabIndex = 14
         Me.Label19.Text = "Email ID"
         '
-        'employeeInfo_pNumber_input
+        'employeePhoneNumberTxt
         '
-        Me.employeeInfo_pNumber_input.Location = New System.Drawing.Point(366, 160)
-        Me.employeeInfo_pNumber_input.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.employeeInfo_pNumber_input.Name = "employeeInfo_pNumber_input"
-        Me.employeeInfo_pNumber_input.Size = New System.Drawing.Size(310, 39)
-        Me.employeeInfo_pNumber_input.TabIndex = 13
+        Me.employeePhoneNumberTxt.Location = New System.Drawing.Point(366, 160)
+        Me.employeePhoneNumberTxt.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.employeePhoneNumberTxt.Name = "employeePhoneNumberTxt"
+        Me.employeePhoneNumberTxt.Size = New System.Drawing.Size(310, 39)
+        Me.employeePhoneNumberTxt.TabIndex = 13
         '
         'Label18
         '
@@ -1284,13 +1284,13 @@ Partial Class AppForm
         Me.Label18.TabIndex = 12
         Me.Label18.Text = "Phone Number"
         '
-        'employeeInfo_mNumber_input
+        'employeeMobileNumberTxt
         '
-        Me.employeeInfo_mNumber_input.Location = New System.Drawing.Point(366, 75)
-        Me.employeeInfo_mNumber_input.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.employeeInfo_mNumber_input.Name = "employeeInfo_mNumber_input"
-        Me.employeeInfo_mNumber_input.Size = New System.Drawing.Size(310, 39)
-        Me.employeeInfo_mNumber_input.TabIndex = 11
+        Me.employeeMobileNumberTxt.Location = New System.Drawing.Point(366, 75)
+        Me.employeeMobileNumberTxt.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.employeeMobileNumberTxt.Name = "employeeMobileNumberTxt"
+        Me.employeeMobileNumberTxt.Size = New System.Drawing.Size(310, 39)
+        Me.employeeMobileNumberTxt.TabIndex = 11
         '
         'Label17
         '
@@ -1302,30 +1302,30 @@ Partial Class AppForm
         Me.Label17.TabIndex = 10
         Me.Label17.Text = "Mobile Number"
         '
-        'GroupBox5
+        'addressDetailsGrpbx
         '
-        Me.GroupBox5.Controls.Add(Me.employeeInfo_lAddress_input)
-        Me.GroupBox5.Controls.Add(Me.Label16)
-        Me.GroupBox5.Controls.Add(Me.employeeInfo_pAddress_input)
-        Me.GroupBox5.Controls.Add(Me.Label15)
-        Me.GroupBox5.Location = New System.Drawing.Point(834, 175)
-        Me.GroupBox5.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.GroupBox5.Name = "GroupBox5"
-        Me.GroupBox5.Padding = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.GroupBox5.Size = New System.Drawing.Size(747, 373)
-        Me.GroupBox5.TabIndex = 6
-        Me.GroupBox5.TabStop = False
-        Me.GroupBox5.Text = "Address Details"
+        Me.addressDetailsGrpbx.Controls.Add(Me.employeeLocalAddressTxt)
+        Me.addressDetailsGrpbx.Controls.Add(Me.Label16)
+        Me.addressDetailsGrpbx.Controls.Add(Me.employeePersonalAddressTxt)
+        Me.addressDetailsGrpbx.Controls.Add(Me.Label15)
+        Me.addressDetailsGrpbx.Location = New System.Drawing.Point(834, 175)
+        Me.addressDetailsGrpbx.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.addressDetailsGrpbx.Name = "addressDetailsGrpbx"
+        Me.addressDetailsGrpbx.Padding = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.addressDetailsGrpbx.Size = New System.Drawing.Size(747, 373)
+        Me.addressDetailsGrpbx.TabIndex = 6
+        Me.addressDetailsGrpbx.TabStop = False
+        Me.addressDetailsGrpbx.Text = "Address Details"
         '
-        'employeeInfo_lAddress_input
+        'employeeLocalAddressTxt
         '
-        Me.employeeInfo_lAddress_input.FormattingEnabled = True
-        Me.employeeInfo_lAddress_input.ItemHeight = 32
-        Me.employeeInfo_lAddress_input.Location = New System.Drawing.Point(371, 220)
-        Me.employeeInfo_lAddress_input.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.employeeInfo_lAddress_input.Name = "employeeInfo_lAddress_input"
-        Me.employeeInfo_lAddress_input.Size = New System.Drawing.Size(310, 132)
-        Me.employeeInfo_lAddress_input.TabIndex = 14
+        Me.employeeLocalAddressTxt.FormattingEnabled = True
+        Me.employeeLocalAddressTxt.ItemHeight = 32
+        Me.employeeLocalAddressTxt.Location = New System.Drawing.Point(371, 220)
+        Me.employeeLocalAddressTxt.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.employeeLocalAddressTxt.Name = "employeeLocalAddressTxt"
+        Me.employeeLocalAddressTxt.Size = New System.Drawing.Size(310, 132)
+        Me.employeeLocalAddressTxt.TabIndex = 14
         '
         'Label16
         '
@@ -1337,15 +1337,15 @@ Partial Class AppForm
         Me.Label16.TabIndex = 13
         Me.Label16.Text = "Local Address"
         '
-        'employeeInfo_pAddress_input
+        'employeePersonalAddressTxt
         '
-        Me.employeeInfo_pAddress_input.FormattingEnabled = True
-        Me.employeeInfo_pAddress_input.ItemHeight = 32
-        Me.employeeInfo_pAddress_input.Location = New System.Drawing.Point(371, 66)
-        Me.employeeInfo_pAddress_input.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.employeeInfo_pAddress_input.Name = "employeeInfo_pAddress_input"
-        Me.employeeInfo_pAddress_input.Size = New System.Drawing.Size(310, 132)
-        Me.employeeInfo_pAddress_input.TabIndex = 12
+        Me.employeePersonalAddressTxt.FormattingEnabled = True
+        Me.employeePersonalAddressTxt.ItemHeight = 32
+        Me.employeePersonalAddressTxt.Location = New System.Drawing.Point(371, 66)
+        Me.employeePersonalAddressTxt.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.employeePersonalAddressTxt.Name = "employeePersonalAddressTxt"
+        Me.employeePersonalAddressTxt.Size = New System.Drawing.Size(310, 132)
+        Me.employeePersonalAddressTxt.TabIndex = 12
         '
         'Label15
         '
@@ -1357,33 +1357,33 @@ Partial Class AppForm
         Me.Label15.TabIndex = 10
         Me.Label15.Text = "Permanent Address"
         '
-        'GroupBox4
+        'personalDetailsGrpbx
         '
-        Me.GroupBox4.Controls.Add(Me.employeeInfo_DOB_input)
-        Me.GroupBox4.Controls.Add(Me.Label14)
-        Me.GroupBox4.Controls.Add(Me.employeeInfo_lName_input)
-        Me.GroupBox4.Controls.Add(Me.Label13)
-        Me.GroupBox4.Controls.Add(Me.employeeInfo_fName_input)
-        Me.GroupBox4.Controls.Add(Me.Label12)
-        Me.GroupBox4.Controls.Add(Me.employeeInfo_employeeTitle_input)
-        Me.GroupBox4.Controls.Add(Me.Label11)
-        Me.GroupBox4.Location = New System.Drawing.Point(39, 175)
-        Me.GroupBox4.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.GroupBox4.Name = "GroupBox4"
-        Me.GroupBox4.Padding = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.GroupBox4.Size = New System.Drawing.Size(752, 373)
-        Me.GroupBox4.TabIndex = 5
-        Me.GroupBox4.TabStop = False
-        Me.GroupBox4.Text = "Personal Details"
+        Me.personalDetailsGrpbx.Controls.Add(Me.employeeDOBTxt)
+        Me.personalDetailsGrpbx.Controls.Add(Me.Label14)
+        Me.personalDetailsGrpbx.Controls.Add(Me.employeeLastNameTxt)
+        Me.personalDetailsGrpbx.Controls.Add(Me.Label13)
+        Me.personalDetailsGrpbx.Controls.Add(Me.employeeFirstNameTxt)
+        Me.personalDetailsGrpbx.Controls.Add(Me.Label12)
+        Me.personalDetailsGrpbx.Controls.Add(Me.employeeTitleTxt)
+        Me.personalDetailsGrpbx.Controls.Add(Me.Label11)
+        Me.personalDetailsGrpbx.Location = New System.Drawing.Point(39, 175)
+        Me.personalDetailsGrpbx.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.personalDetailsGrpbx.Name = "personalDetailsGrpbx"
+        Me.personalDetailsGrpbx.Padding = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.personalDetailsGrpbx.Size = New System.Drawing.Size(752, 373)
+        Me.personalDetailsGrpbx.TabIndex = 5
+        Me.personalDetailsGrpbx.TabStop = False
+        Me.personalDetailsGrpbx.Text = "Personal Details"
         '
-        'employeeInfo_DOB_input
+        'employeeDOBTxt
         '
-        Me.employeeInfo_DOB_input.FormattingEnabled = True
-        Me.employeeInfo_DOB_input.Location = New System.Drawing.Point(366, 292)
-        Me.employeeInfo_DOB_input.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.employeeInfo_DOB_input.Name = "employeeInfo_DOB_input"
-        Me.employeeInfo_DOB_input.Size = New System.Drawing.Size(310, 40)
-        Me.employeeInfo_DOB_input.TabIndex = 9
+        Me.employeeDOBTxt.FormattingEnabled = True
+        Me.employeeDOBTxt.Location = New System.Drawing.Point(366, 292)
+        Me.employeeDOBTxt.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.employeeDOBTxt.Name = "employeeDOBTxt"
+        Me.employeeDOBTxt.Size = New System.Drawing.Size(310, 40)
+        Me.employeeDOBTxt.TabIndex = 9
         '
         'Label14
         '
@@ -1395,13 +1395,13 @@ Partial Class AppForm
         Me.Label14.TabIndex = 8
         Me.Label14.Text = "Date of Birth"
         '
-        'employeeInfo_lName_input
+        'employeeLastNameTxt
         '
-        Me.employeeInfo_lName_input.Location = New System.Drawing.Point(366, 218)
-        Me.employeeInfo_lName_input.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.employeeInfo_lName_input.Name = "employeeInfo_lName_input"
-        Me.employeeInfo_lName_input.Size = New System.Drawing.Size(310, 39)
-        Me.employeeInfo_lName_input.TabIndex = 7
+        Me.employeeLastNameTxt.Location = New System.Drawing.Point(366, 218)
+        Me.employeeLastNameTxt.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.employeeLastNameTxt.Name = "employeeLastNameTxt"
+        Me.employeeLastNameTxt.Size = New System.Drawing.Size(310, 39)
+        Me.employeeLastNameTxt.TabIndex = 7
         '
         'Label13
         '
@@ -1413,13 +1413,13 @@ Partial Class AppForm
         Me.Label13.TabIndex = 6
         Me.Label13.Text = "Employee Last Name"
         '
-        'employeeInfo_fName_input
+        'employeeFirstNameTxt
         '
-        Me.employeeInfo_fName_input.Location = New System.Drawing.Point(366, 139)
-        Me.employeeInfo_fName_input.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.employeeInfo_fName_input.Name = "employeeInfo_fName_input"
-        Me.employeeInfo_fName_input.Size = New System.Drawing.Size(310, 39)
-        Me.employeeInfo_fName_input.TabIndex = 5
+        Me.employeeFirstNameTxt.Location = New System.Drawing.Point(366, 139)
+        Me.employeeFirstNameTxt.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.employeeFirstNameTxt.Name = "employeeFirstNameTxt"
+        Me.employeeFirstNameTxt.Size = New System.Drawing.Size(310, 39)
+        Me.employeeFirstNameTxt.TabIndex = 5
         '
         'Label12
         '
@@ -1431,13 +1431,13 @@ Partial Class AppForm
         Me.Label12.TabIndex = 4
         Me.Label12.Text = "Employee First Name"
         '
-        'employeeInfo_employeeTitle_input
+        'employeeTitleTxt
         '
-        Me.employeeInfo_employeeTitle_input.Location = New System.Drawing.Point(366, 64)
-        Me.employeeInfo_employeeTitle_input.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.employeeInfo_employeeTitle_input.Name = "employeeInfo_employeeTitle_input"
-        Me.employeeInfo_employeeTitle_input.Size = New System.Drawing.Size(310, 39)
-        Me.employeeInfo_employeeTitle_input.TabIndex = 3
+        Me.employeeTitleTxt.Location = New System.Drawing.Point(366, 64)
+        Me.employeeTitleTxt.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.employeeTitleTxt.Name = "employeeTitleTxt"
+        Me.employeeTitleTxt.Size = New System.Drawing.Size(310, 39)
+        Me.employeeTitleTxt.TabIndex = 3
         '
         'Label11
         '
@@ -1451,7 +1451,7 @@ Partial Class AppForm
         '
         'GroupBox3
         '
-        Me.GroupBox3.Controls.Add(Me.employeeInfo_employeeID_input)
+        Me.GroupBox3.Controls.Add(Me.employeeIDTxt)
         Me.GroupBox3.Controls.Add(Me.Label10)
         Me.GroupBox3.Location = New System.Drawing.Point(529, 38)
         Me.GroupBox3.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
@@ -1461,13 +1461,13 @@ Partial Class AppForm
         Me.GroupBox3.TabIndex = 4
         Me.GroupBox3.TabStop = False
         '
-        'employeeInfo_employeeID_input
+        'employeeIDTxt
         '
-        Me.employeeInfo_employeeID_input.Location = New System.Drawing.Point(271, 45)
-        Me.employeeInfo_employeeID_input.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.employeeInfo_employeeID_input.Name = "employeeInfo_employeeID_input"
-        Me.employeeInfo_employeeID_input.Size = New System.Drawing.Size(201, 39)
-        Me.employeeInfo_employeeID_input.TabIndex = 1
+        Me.employeeIDTxt.Location = New System.Drawing.Point(271, 45)
+        Me.employeeIDTxt.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.employeeIDTxt.Name = "employeeIDTxt"
+        Me.employeeIDTxt.Size = New System.Drawing.Size(201, 39)
+        Me.employeeIDTxt.TabIndex = 1
         '
         'Label10
         '
@@ -1521,19 +1521,19 @@ Partial Class AppForm
         '
         'GroupBox12
         '
-        Me.GroupBox12.Controls.Add(Me.feesStructure_feesYear_input)
-        Me.GroupBox12.Controls.Add(Me.feesStructure_feesMonth_input)
-        Me.GroupBox12.Controls.Add(Me.feesStructure_feesDate_input)
-        Me.GroupBox12.Controls.Add(Me.feesStructure_paymentType_input)
-        Me.GroupBox12.Controls.Add(Me.feesStructure_feesAmount_input)
+        Me.GroupBox12.Controls.Add(Me.feesYearTxt)
+        Me.GroupBox12.Controls.Add(Me.feesMonthTxt)
+        Me.GroupBox12.Controls.Add(Me.feesDateTxt)
+        Me.GroupBox12.Controls.Add(Me.feesPaymentTypeTxt)
+        Me.GroupBox12.Controls.Add(Me.feesAmountTxt)
         Me.GroupBox12.Controls.Add(Me.Label31)
         Me.GroupBox12.Controls.Add(Me.Label32)
         Me.GroupBox12.Controls.Add(Me.Label33)
         Me.GroupBox12.Controls.Add(Me.Label34)
         Me.GroupBox12.Controls.Add(Me.Label35)
-        Me.GroupBox12.Controls.Add(Me.feesStructure_studentID_input)
+        Me.GroupBox12.Controls.Add(Me.feesStudentIDTxt)
         Me.GroupBox12.Controls.Add(Me.Label36)
-        Me.GroupBox12.Controls.Add(Me.feesStructure_feesID_input)
+        Me.GroupBox12.Controls.Add(Me.feesIDTxt)
         Me.GroupBox12.Controls.Add(Me.Label37)
         Me.GroupBox12.Location = New System.Drawing.Point(50, 68)
         Me.GroupBox12.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
@@ -1543,49 +1543,49 @@ Partial Class AppForm
         Me.GroupBox12.TabIndex = 25
         Me.GroupBox12.TabStop = False
         '
-        'feesStructure_feesYear_input
+        'feesYearTxt
         '
-        Me.feesStructure_feesYear_input.FormattingEnabled = True
-        Me.feesStructure_feesYear_input.Location = New System.Drawing.Point(481, 450)
-        Me.feesStructure_feesYear_input.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.feesStructure_feesYear_input.Name = "feesStructure_feesYear_input"
-        Me.feesStructure_feesYear_input.Size = New System.Drawing.Size(310, 40)
-        Me.feesStructure_feesYear_input.TabIndex = 24
+        Me.feesYearTxt.FormattingEnabled = True
+        Me.feesYearTxt.Location = New System.Drawing.Point(481, 450)
+        Me.feesYearTxt.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.feesYearTxt.Name = "feesYearTxt"
+        Me.feesYearTxt.Size = New System.Drawing.Size(310, 40)
+        Me.feesYearTxt.TabIndex = 24
         '
-        'feesStructure_feesMonth_input
+        'feesMonthTxt
         '
-        Me.feesStructure_feesMonth_input.FormattingEnabled = True
-        Me.feesStructure_feesMonth_input.Location = New System.Drawing.Point(481, 367)
-        Me.feesStructure_feesMonth_input.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.feesStructure_feesMonth_input.Name = "feesStructure_feesMonth_input"
-        Me.feesStructure_feesMonth_input.Size = New System.Drawing.Size(310, 40)
-        Me.feesStructure_feesMonth_input.TabIndex = 23
+        Me.feesMonthTxt.FormattingEnabled = True
+        Me.feesMonthTxt.Location = New System.Drawing.Point(481, 367)
+        Me.feesMonthTxt.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.feesMonthTxt.Name = "feesMonthTxt"
+        Me.feesMonthTxt.Size = New System.Drawing.Size(310, 40)
+        Me.feesMonthTxt.TabIndex = 23
         '
-        'feesStructure_feesDate_input
+        'feesDateTxt
         '
-        Me.feesStructure_feesDate_input.FormattingEnabled = True
-        Me.feesStructure_feesDate_input.Location = New System.Drawing.Point(481, 294)
-        Me.feesStructure_feesDate_input.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.feesStructure_feesDate_input.Name = "feesStructure_feesDate_input"
-        Me.feesStructure_feesDate_input.Size = New System.Drawing.Size(310, 40)
-        Me.feesStructure_feesDate_input.TabIndex = 22
+        Me.feesDateTxt.FormattingEnabled = True
+        Me.feesDateTxt.Location = New System.Drawing.Point(481, 294)
+        Me.feesDateTxt.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.feesDateTxt.Name = "feesDateTxt"
+        Me.feesDateTxt.Size = New System.Drawing.Size(310, 40)
+        Me.feesDateTxt.TabIndex = 22
         '
-        'feesStructure_paymentType_input
+        'feesPaymentTypeTxt
         '
-        Me.feesStructure_paymentType_input.FormattingEnabled = True
-        Me.feesStructure_paymentType_input.Location = New System.Drawing.Point(483, 218)
-        Me.feesStructure_paymentType_input.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.feesStructure_paymentType_input.Name = "feesStructure_paymentType_input"
-        Me.feesStructure_paymentType_input.Size = New System.Drawing.Size(310, 40)
-        Me.feesStructure_paymentType_input.TabIndex = 21
+        Me.feesPaymentTypeTxt.FormattingEnabled = True
+        Me.feesPaymentTypeTxt.Location = New System.Drawing.Point(483, 218)
+        Me.feesPaymentTypeTxt.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.feesPaymentTypeTxt.Name = "feesPaymentTypeTxt"
+        Me.feesPaymentTypeTxt.Size = New System.Drawing.Size(310, 40)
+        Me.feesPaymentTypeTxt.TabIndex = 21
         '
-        'feesStructure_feesAmount_input
+        'feesAmountTxt
         '
-        Me.feesStructure_feesAmount_input.Location = New System.Drawing.Point(483, 529)
-        Me.feesStructure_feesAmount_input.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.feesStructure_feesAmount_input.Name = "feesStructure_feesAmount_input"
-        Me.feesStructure_feesAmount_input.Size = New System.Drawing.Size(310, 39)
-        Me.feesStructure_feesAmount_input.TabIndex = 20
+        Me.feesAmountTxt.Location = New System.Drawing.Point(483, 529)
+        Me.feesAmountTxt.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.feesAmountTxt.Name = "feesAmountTxt"
+        Me.feesAmountTxt.Size = New System.Drawing.Size(310, 39)
+        Me.feesAmountTxt.TabIndex = 20
         '
         'Label31
         '
@@ -1637,13 +1637,13 @@ Partial Class AppForm
         Me.Label35.TabIndex = 15
         Me.Label35.Text = "Payment Type"
         '
-        'feesStructure_studentID_input
+        'feesStudentIDTxt
         '
-        Me.feesStructure_studentID_input.Location = New System.Drawing.Point(483, 139)
-        Me.feesStructure_studentID_input.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.feesStructure_studentID_input.Name = "feesStructure_studentID_input"
-        Me.feesStructure_studentID_input.Size = New System.Drawing.Size(310, 39)
-        Me.feesStructure_studentID_input.TabIndex = 14
+        Me.feesStudentIDTxt.Location = New System.Drawing.Point(483, 139)
+        Me.feesStudentIDTxt.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.feesStudentIDTxt.Name = "feesStudentIDTxt"
+        Me.feesStudentIDTxt.Size = New System.Drawing.Size(310, 39)
+        Me.feesStudentIDTxt.TabIndex = 14
         '
         'Label36
         '
@@ -1655,13 +1655,13 @@ Partial Class AppForm
         Me.Label36.TabIndex = 13
         Me.Label36.Text = "Student ID"
         '
-        'feesStructure_feesID_input
+        'feesIDTxt
         '
-        Me.feesStructure_feesID_input.Location = New System.Drawing.Point(483, 60)
-        Me.feesStructure_feesID_input.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.feesStructure_feesID_input.Name = "feesStructure_feesID_input"
-        Me.feesStructure_feesID_input.Size = New System.Drawing.Size(310, 39)
-        Me.feesStructure_feesID_input.TabIndex = 12
+        Me.feesIDTxt.Location = New System.Drawing.Point(483, 60)
+        Me.feesIDTxt.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.feesIDTxt.Name = "feesIDTxt"
+        Me.feesIDTxt.Size = New System.Drawing.Size(310, 39)
+        Me.feesIDTxt.TabIndex = 12
         '
         'Label37
         '
@@ -1763,35 +1763,35 @@ Partial Class AppForm
         Me.feeTitleLbl.Text = "Fees Information"
         Me.feeTitleLbl.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
-        'course_details_tab
+        'courseTab
         '
-        Me.course_details_tab.Controls.Add(Me.GroupBox1)
-        Me.course_details_tab.Controls.Add(Me.Label2)
-        Me.course_details_tab.Controls.Add(Me.Label1)
-        Me.course_details_tab.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.course_details_tab.Location = New System.Drawing.Point(8, 46)
-        Me.course_details_tab.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.course_details_tab.Name = "course_details_tab"
-        Me.course_details_tab.Padding = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.course_details_tab.Size = New System.Drawing.Size(1693, 1386)
-        Me.course_details_tab.TabIndex = 4
-        Me.course_details_tab.Text = "Course Details"
-        Me.course_details_tab.UseVisualStyleBackColor = True
+        Me.courseTab.Controls.Add(Me.GroupBox1)
+        Me.courseTab.Controls.Add(Me.Label2)
+        Me.courseTab.Controls.Add(Me.Label1)
+        Me.courseTab.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.courseTab.Location = New System.Drawing.Point(8, 46)
+        Me.courseTab.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.courseTab.Name = "courseTab"
+        Me.courseTab.Padding = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.courseTab.Size = New System.Drawing.Size(1693, 1386)
+        Me.courseTab.TabIndex = 4
+        Me.courseTab.Text = "Course Details"
+        Me.courseTab.UseVisualStyleBackColor = True
         '
         'GroupBox1
         '
         Me.GroupBox1.Controls.Add(Me.GroupBox10)
-        Me.GroupBox1.Controls.Add(Me.courseDetails_title_input)
+        Me.GroupBox1.Controls.Add(Me.courseTitleTxt)
         Me.GroupBox1.Controls.Add(Me.Label8)
-        Me.GroupBox1.Controls.Add(Me.courseDetails_duration_input)
+        Me.GroupBox1.Controls.Add(Me.courseDurationTxt)
         Me.GroupBox1.Controls.Add(Me.Label7)
-        Me.GroupBox1.Controls.Add(Me.courseDetails_fee_input)
+        Me.GroupBox1.Controls.Add(Me.courseFeeTxt)
         Me.GroupBox1.Controls.Add(Me.Label6)
-        Me.GroupBox1.Controls.Add(Me.courseDetails_code_input)
+        Me.GroupBox1.Controls.Add(Me.courseCodeTxt)
         Me.GroupBox1.Controls.Add(Me.Label5)
-        Me.GroupBox1.Controls.Add(Me.courseDetails_name_input)
+        Me.GroupBox1.Controls.Add(Me.courseNameTxt)
         Me.GroupBox1.Controls.Add(Me.Label4)
-        Me.GroupBox1.Controls.Add(Me.courseDetails_courseID_input)
+        Me.GroupBox1.Controls.Add(Me.courseIDTxt)
         Me.GroupBox1.Controls.Add(Me.Label3)
         Me.GroupBox1.Location = New System.Drawing.Point(262, 205)
         Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
@@ -1878,13 +1878,13 @@ Partial Class AppForm
         Me.courseDetails_submitBtn.Text = "Submit"
         Me.courseDetails_submitBtn.UseVisualStyleBackColor = True
         '
-        'courseDetails_title_input
+        'courseTitleTxt
         '
-        Me.courseDetails_title_input.Location = New System.Drawing.Point(565, 194)
-        Me.courseDetails_title_input.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.courseDetails_title_input.Name = "courseDetails_title_input"
-        Me.courseDetails_title_input.Size = New System.Drawing.Size(223, 39)
-        Me.courseDetails_title_input.TabIndex = 11
+        Me.courseTitleTxt.Location = New System.Drawing.Point(565, 194)
+        Me.courseTitleTxt.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.courseTitleTxt.Name = "courseTitleTxt"
+        Me.courseTitleTxt.Size = New System.Drawing.Size(223, 39)
+        Me.courseTitleTxt.TabIndex = 11
         '
         'Label8
         '
@@ -1896,13 +1896,13 @@ Partial Class AppForm
         Me.Label8.TabIndex = 10
         Me.Label8.Text = "Course Title"
         '
-        'courseDetails_duration_input
+        'courseDurationTxt
         '
-        Me.courseDetails_duration_input.Location = New System.Drawing.Point(565, 529)
-        Me.courseDetails_duration_input.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.courseDetails_duration_input.Name = "courseDetails_duration_input"
-        Me.courseDetails_duration_input.Size = New System.Drawing.Size(223, 39)
-        Me.courseDetails_duration_input.TabIndex = 9
+        Me.courseDurationTxt.Location = New System.Drawing.Point(565, 529)
+        Me.courseDurationTxt.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.courseDurationTxt.Name = "courseDurationTxt"
+        Me.courseDurationTxt.Size = New System.Drawing.Size(223, 39)
+        Me.courseDurationTxt.TabIndex = 9
         '
         'Label7
         '
@@ -1914,13 +1914,13 @@ Partial Class AppForm
         Me.Label7.TabIndex = 8
         Me.Label7.Text = "Course Duration"
         '
-        'courseDetails_fee_input
+        'courseFeeTxt
         '
-        Me.courseDetails_fee_input.Location = New System.Drawing.Point(565, 439)
-        Me.courseDetails_fee_input.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.courseDetails_fee_input.Name = "courseDetails_fee_input"
-        Me.courseDetails_fee_input.Size = New System.Drawing.Size(223, 39)
-        Me.courseDetails_fee_input.TabIndex = 7
+        Me.courseFeeTxt.Location = New System.Drawing.Point(565, 439)
+        Me.courseFeeTxt.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.courseFeeTxt.Name = "courseFeeTxt"
+        Me.courseFeeTxt.Size = New System.Drawing.Size(223, 39)
+        Me.courseFeeTxt.TabIndex = 7
         '
         'Label6
         '
@@ -1932,13 +1932,13 @@ Partial Class AppForm
         Me.Label6.TabIndex = 6
         Me.Label6.Text = "Course Fee"
         '
-        'courseDetails_code_input
+        'courseCodeTxt
         '
-        Me.courseDetails_code_input.Location = New System.Drawing.Point(565, 358)
-        Me.courseDetails_code_input.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.courseDetails_code_input.Name = "courseDetails_code_input"
-        Me.courseDetails_code_input.Size = New System.Drawing.Size(223, 39)
-        Me.courseDetails_code_input.TabIndex = 5
+        Me.courseCodeTxt.Location = New System.Drawing.Point(565, 358)
+        Me.courseCodeTxt.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.courseCodeTxt.Name = "courseCodeTxt"
+        Me.courseCodeTxt.Size = New System.Drawing.Size(223, 39)
+        Me.courseCodeTxt.TabIndex = 5
         '
         'Label5
         '
@@ -1950,13 +1950,13 @@ Partial Class AppForm
         Me.Label5.TabIndex = 4
         Me.Label5.Text = "Course Code"
         '
-        'courseDetails_name_input
+        'courseNameTxt
         '
-        Me.courseDetails_name_input.Location = New System.Drawing.Point(565, 273)
-        Me.courseDetails_name_input.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.courseDetails_name_input.Name = "courseDetails_name_input"
-        Me.courseDetails_name_input.Size = New System.Drawing.Size(223, 39)
-        Me.courseDetails_name_input.TabIndex = 3
+        Me.courseNameTxt.Location = New System.Drawing.Point(565, 273)
+        Me.courseNameTxt.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.courseNameTxt.Name = "courseNameTxt"
+        Me.courseNameTxt.Size = New System.Drawing.Size(223, 39)
+        Me.courseNameTxt.TabIndex = 3
         '
         'Label4
         '
@@ -1968,13 +1968,13 @@ Partial Class AppForm
         Me.Label4.TabIndex = 2
         Me.Label4.Text = "Course Name"
         '
-        'courseDetails_courseID_input
+        'courseIDTxt
         '
-        Me.courseDetails_courseID_input.Location = New System.Drawing.Point(565, 124)
-        Me.courseDetails_courseID_input.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
-        Me.courseDetails_courseID_input.Name = "courseDetails_courseID_input"
-        Me.courseDetails_courseID_input.Size = New System.Drawing.Size(223, 39)
-        Me.courseDetails_courseID_input.TabIndex = 1
+        Me.courseIDTxt.Location = New System.Drawing.Point(565, 124)
+        Me.courseIDTxt.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.courseIDTxt.Name = "courseIDTxt"
+        Me.courseIDTxt.Size = New System.Drawing.Size(223, 39)
+        Me.courseIDTxt.TabIndex = 1
         '
         'Label3
         '
@@ -2040,8 +2040,8 @@ Partial Class AppForm
         Me.GroupBox21.PerformLayout()
         Me.GroupBox22.ResumeLayout(False)
         Me.GroupBox22.PerformLayout()
-        Me.GroupBox23.ResumeLayout(False)
-        Me.GroupBox23.PerformLayout()
+        Me.studentPersonalDetailsGrpbx.ResumeLayout(False)
+        Me.studentPersonalDetailsGrpbx.PerformLayout()
         Me.GroupBox24.ResumeLayout(False)
         Me.GroupBox24.PerformLayout()
         Me.salary_details_tab.ResumeLayout(False)
@@ -2059,14 +2059,14 @@ Partial Class AppForm
         Me.employee_information_tab.PerformLayout()
         Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox8.ResumeLayout(False)
-        Me.GroupBox7.ResumeLayout(False)
-        Me.GroupBox7.PerformLayout()
-        Me.GroupBox6.ResumeLayout(False)
-        Me.GroupBox6.PerformLayout()
-        Me.GroupBox5.ResumeLayout(False)
-        Me.GroupBox5.PerformLayout()
-        Me.GroupBox4.ResumeLayout(False)
-        Me.GroupBox4.PerformLayout()
+        Me.officialInformationGrpbx.ResumeLayout(False)
+        Me.officialInformationGrpbx.PerformLayout()
+        Me.contactDetailsGrpbx.ResumeLayout(False)
+        Me.contactDetailsGrpbx.PerformLayout()
+        Me.addressDetailsGrpbx.ResumeLayout(False)
+        Me.addressDetailsGrpbx.PerformLayout()
+        Me.personalDetailsGrpbx.ResumeLayout(False)
+        Me.personalDetailsGrpbx.PerformLayout()
         Me.GroupBox3.ResumeLayout(False)
         Me.GroupBox3.PerformLayout()
         Me.fees_structure_tab.ResumeLayout(False)
@@ -2075,8 +2075,8 @@ Partial Class AppForm
         Me.GroupBox12.ResumeLayout(False)
         Me.GroupBox12.PerformLayout()
         Me.GroupBox11.ResumeLayout(False)
-        Me.course_details_tab.ResumeLayout(False)
-        Me.course_details_tab.PerformLayout()
+        Me.courseTab.ResumeLayout(False)
+        Me.courseTab.PerformLayout()
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         Me.GroupBox10.ResumeLayout(False)
@@ -2089,55 +2089,55 @@ Partial Class AppForm
     Friend WithEvents salary_details_tab As TabPage
     Friend WithEvents employee_information_tab As TabPage
     Friend WithEvents fees_structure_tab As TabPage
-    Friend WithEvents course_details_tab As TabPage
+    Friend WithEvents courseTab As TabPage
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents report_tab As TabPage
     Friend WithEvents GroupBox1 As GroupBox
-    Friend WithEvents courseDetails_courseID_input As TextBox
+    Friend WithEvents courseIDTxt As TextBox
     Friend WithEvents Label3 As Label
-    Friend WithEvents courseDetails_title_input As TextBox
+    Friend WithEvents courseTitleTxt As TextBox
     Friend WithEvents Label8 As Label
-    Friend WithEvents courseDetails_duration_input As TextBox
+    Friend WithEvents courseDurationTxt As TextBox
     Friend WithEvents Label7 As Label
-    Friend WithEvents courseDetails_fee_input As TextBox
+    Friend WithEvents courseFeeTxt As TextBox
     Friend WithEvents Label6 As Label
-    Friend WithEvents courseDetails_code_input As TextBox
+    Friend WithEvents courseCodeTxt As TextBox
     Friend WithEvents Label5 As Label
-    Friend WithEvents courseDetails_name_input As TextBox
+    Friend WithEvents courseNameTxt As TextBox
     Friend WithEvents Label4 As Label
     Friend WithEvents GroupBox2 As GroupBox
     Friend WithEvents employeeTitleLbl As Label
-    Friend WithEvents GroupBox5 As GroupBox
-    Friend WithEvents GroupBox4 As GroupBox
+    Friend WithEvents addressDetailsGrpbx As GroupBox
+    Friend WithEvents personalDetailsGrpbx As GroupBox
     Friend WithEvents GroupBox3 As GroupBox
-    Friend WithEvents employeeInfo_employeeID_input As TextBox
+    Friend WithEvents employeeIDTxt As TextBox
     Friend WithEvents Label10 As Label
-    Friend WithEvents GroupBox7 As GroupBox
-    Friend WithEvents GroupBox6 As GroupBox
-    Friend WithEvents employeeInfo_DOB_input As ComboBox
+    Friend WithEvents officialInformationGrpbx As GroupBox
+    Friend WithEvents contactDetailsGrpbx As GroupBox
+    Friend WithEvents employeeDOBTxt As ComboBox
     Friend WithEvents Label14 As Label
-    Friend WithEvents employeeInfo_lName_input As TextBox
+    Friend WithEvents employeeLastNameTxt As TextBox
     Friend WithEvents Label13 As Label
-    Friend WithEvents employeeInfo_fName_input As TextBox
+    Friend WithEvents employeeFirstNameTxt As TextBox
     Friend WithEvents Label12 As Label
-    Friend WithEvents employeeInfo_employeeTitle_input As TextBox
+    Friend WithEvents employeeTitleTxt As TextBox
     Friend WithEvents Label11 As Label
-    Friend WithEvents employeeInfo_lAddress_input As ListBox
+    Friend WithEvents employeeLocalAddressTxt As ListBox
     Friend WithEvents Label16 As Label
-    Friend WithEvents employeeInfo_pAddress_input As ListBox
+    Friend WithEvents employeePersonalAddressTxt As ListBox
     Friend WithEvents Label15 As Label
-    Friend WithEvents employeeInfo_emailID_input As TextBox
+    Friend WithEvents employeeEmailIDTxt As TextBox
     Friend WithEvents Label19 As Label
-    Friend WithEvents employeeInfo_pNumber_input As TextBox
+    Friend WithEvents employeePhoneNumberTxt As TextBox
     Friend WithEvents Label18 As Label
-    Friend WithEvents employeeInfo_mNumber_input As TextBox
+    Friend WithEvents employeeMobileNumberTxt As TextBox
     Friend WithEvents Label17 As Label
-    Friend WithEvents employeeInfo_salary_input As TextBox
-    Friend WithEvents employeeInfo_eDesignation_input As TextBox
+    Friend WithEvents employeeSalaryTxt As TextBox
+    Friend WithEvents employeeDesignationTxt As TextBox
     Friend WithEvents Label20 As Label
     Friend WithEvents Label22 As Label
-    Friend WithEvents employeeInfo_eType_input As TextBox
+    Friend WithEvents employeeTypeTxt As TextBox
     Friend WithEvents Label21 As Label
     Friend WithEvents GroupBox8 As GroupBox
     Friend WithEvents employeeInfo_printBtn As Button
@@ -2164,19 +2164,19 @@ Partial Class AppForm
     Friend WithEvents feesStructure_findBtn As Button
     Friend WithEvents feesStructure_submitBtn As Button
     Friend WithEvents GroupBox12 As GroupBox
-    Friend WithEvents feesStructure_feesYear_input As ComboBox
-    Friend WithEvents feesStructure_feesMonth_input As ComboBox
-    Friend WithEvents feesStructure_feesDate_input As ComboBox
-    Friend WithEvents feesStructure_paymentType_input As ComboBox
-    Friend WithEvents feesStructure_feesAmount_input As TextBox
+    Friend WithEvents feesYearTxt As ComboBox
+    Friend WithEvents feesMonthTxt As ComboBox
+    Friend WithEvents feesDateTxt As ComboBox
+    Friend WithEvents feesPaymentTypeTxt As ComboBox
+    Friend WithEvents feesAmountTxt As TextBox
     Friend WithEvents Label31 As Label
     Friend WithEvents Label32 As Label
     Friend WithEvents Label33 As Label
     Friend WithEvents Label34 As Label
     Friend WithEvents Label35 As Label
-    Friend WithEvents feesStructure_studentID_input As TextBox
+    Friend WithEvents feesStudentIDTxt As TextBox
     Friend WithEvents Label36 As Label
-    Friend WithEvents feesStructure_feesID_input As TextBox
+    Friend WithEvents feesIDTxt As TextBox
     Friend WithEvents Label37 As Label
     Friend WithEvents GroupBox14 As GroupBox
     Friend WithEvents GroupBox16 As GroupBox
@@ -2236,7 +2236,7 @@ Partial Class AppForm
     Friend WithEvents GroupBox22 As GroupBox
     Friend WithEvents Label45 As Label
     Friend WithEvents Label46 As Label
-    Friend WithEvents GroupBox23 As GroupBox
+    Friend WithEvents studentPersonalDetailsGrpbx As GroupBox
     Friend WithEvents studentDOBDate As DateTimePicker
     Friend WithEvents Label47 As Label
     Friend WithEvents studentLastNameTxt As TextBox
@@ -2246,7 +2246,7 @@ Partial Class AppForm
     Friend WithEvents studentFirstNameTxt As TextBox
     Friend WithEvents Label50 As Label
     Friend WithEvents GroupBox24 As GroupBox
-    Friend WithEvents studentInformation_studentID_input As TextBox
+    Friend WithEvents studentIdTxt As TextBox
     Friend WithEvents Label51 As Label
     Friend WithEvents studentTitleLbl As Label
     Friend WithEvents studentGenderDropbx As ComboBox

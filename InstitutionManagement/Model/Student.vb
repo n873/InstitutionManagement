@@ -4,6 +4,10 @@
     End Enum
 
     Public Class Student
+        Public Const Male As String = "Male"
+        Public Const Female As String = "Female"
+        Public Const Other As String = "Other"
+
         Public Property ID As Integer
         Public Property PersonalDetails As Common.PersonalDetails
         Public Property AddressDetails As Common.AddressDetails

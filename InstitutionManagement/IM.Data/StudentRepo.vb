@@ -5,6 +5,8 @@ Imports Domain.InstitutionManagement.Domain
 Namespace InstitutionManagement.Data
     Public Class StudentRepo
         Private ReadOnly _connection As OleDbConnection
+        Private Const _commandFieldNames As String = "(ID, FirstName,MiddleName,LastName,DateOfBirth, LocalAddress, PermanentAddress, MotherName, FatherName, BloodGroup, Gender, Category, EmailID, ContactNumber)"
+        Private Const _commandParameterValues As String = "(@ID, @FirstName, @MiddleName, @LastName, @DateOfBirth, @LocalAddress, @PermanentAddress, @MotherName, @FatherName, @BloodGroup, @Gender, @Category, @EmailID, @ContactNumber)"
 
         Public Sub New(connectionString As String)
             _connection = New OleDbConnection(connectionString)
@@ -13,7 +15,7 @@ Namespace InstitutionManagement.Data
 
         Public Sub AddStudent(student As Student)
             Try
-                ExecuteOldDbCommand("INSERT INTO Student", student)
+                ExecuteOldDbCommand($"INSERT INTO Student {_commandFieldNames} VALUES {_commandParameterValues}", student)
 
             Catch ex As Exception
                 Throw
@@ -22,21 +24,31 @@ Namespace InstitutionManagement.Data
 
         Public Sub UpdateStudent(student As Student)
             Try
-                ExecuteOldDbCommand("UPDATE Student SET", student)
+                ExecuteOldDbCommand($"UPDATE Student SET {_commandFieldNames} VALUES {_commandParameterValues} WHERE ID = @ID", student)
 
             Catch ex As Exception
                 Throw
             End Try
         End Sub
 
-        Private Sub ExecuteOldDbCommand(commandPrefix As String, student As Student)
+        Public Sub DeleteStudent(student As Student)
+            Try
+                ExecuteOldDbCommand("DELETE From Student WHERE ID = @ID", student)
+
+            Catch ex As Exception
+                Throw
+            End Try
+        End Sub
+
+        Private Sub ExecuteOldDbCommand(command As String, student As Student)
             Try
                 Dim cm = New OleDbCommand
                 With cm
                     .Connection = _connection
                     .CommandType = CommandType.Text
-                    .CommandText = $"{commandPrefix} (FirstName,MiddleName,LastName,DateOfBirth, LocalAddress, PermanentAddress, MotherName, FatherName, BloodGroup, Gender, Category, EmailID, ContactNumber) VALUES (@FirstName, @MiddleName, @LastName, @DateOfBirth, @LocalAddress, @PermanentAddress, @MotherName, @FatherName, @BloodGroup, @Gender, @Category, @EmailID, @ContactNumber)"
+                    .CommandText = command
 
+                    .Parameters.Add(New OleDbParameter("@ID", OleDbType.VarChar, 255, student.ID))
                     .Parameters.Add(New OleDbParameter("@FirstName", OleDbType.VarChar, 255, student.PersonalDetails.FirstName))
                     .Parameters.Add(New OleDbParameter("@MiddleName", OleDbType.VarChar, 255, student.PersonalDetails.MiddleName))
                     .Parameters.Add(New OleDbParameter("@LastName", OleDbType.VarChar, 255, student.PersonalDetails.LastName))
@@ -53,6 +65,7 @@ Namespace InstitutionManagement.Data
 
 
                     ' RUN THE COMMAND
+                    cm.Parameters("@ID").Value = student.ID
                     cm.Parameters("@FirstName").Value = student.PersonalDetails.FirstName
                     cm.Parameters("@MiddleName").Value = student.PersonalDetails.MiddleName
                     cm.Parameters("@LastName").Value = student.PersonalDetails.LastName
