@@ -293,4 +293,5 @@ Public Class AppForm
             MessageBox.Show(Common.AuthErrorTitle, Common.AuthErrorMessage)
         End If
     End Sub
+
 End Class
